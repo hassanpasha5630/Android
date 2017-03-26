@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_base_b"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="pashabrb.application3_.BaseB">
+
+
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true"
+
+        android:gravity="right"
+        android:textSize="16dip"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:background="@drawable/mlb_selector"
+        />
+
+
+    <LinearLayout
+        android:id="@+id/for_listview_mlb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight = "5"
+        android:weightSum="3"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:orientation="horizontal"
+        android:id="@+id/for_web_view_mlb"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_weight = "0"
+        >
+
+    </FrameLayout>
+
+
+
+
+
+
+    <FrameLayout
+        android:orientation="horizontal"
+        android:id="@+id/for_web_view_2"
+        android:layout_width="350dp"
+        android:layout_height="match_parent"
+        android:layout_weight = "0"
+        >
+
+    </FrameLayout>
+
+
+
+
+
+
+
+</RelativeLayout>

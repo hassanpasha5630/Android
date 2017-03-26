@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_bb"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="pashabrb.application3_.BB">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true"
+
+        android:gravity="right"
+        android:textSize="16dip"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:background="@drawable/selctor"
+        />
+
+
+    <RelativeLayout
+        android:id="@+id/for_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight = "10"
+        android:weightSum="3"
+        android:orientation="horizontal">
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:orientation="horizontal"
+        android:id="@+id/for_web_view"
+        android:layout_width="350dp"
+        android:layout_height="match_parent"
+        android:layout_weight = "0"
+        >
+
+    </FrameLayout>
+
+
+
+</RelativeLayout>
